@@ -69,12 +69,16 @@ git config --global user.email "your@email"
 
 ### Repo: Create a label for tasks
 
+Labels help you filter and organize issues. With a `task` label, you can quickly see all lab tasks in one view.
+
 In the repo -> `Issues` -> `Labels`, create a new label:
 1. Click `New label`.
 2. Name: `task`.
 3. Click `Create label`.
 
 ### Repo: Protect your `main` branch
+
+Branch protection prevents accidental pushes directly to `main`. This enforces the PR workflow and ensures all changes are reviewed.
 
 In the repo -> `Settings` -> `Code and automation` -> `Add branch ruleset`:
 1. `Ruleset Name`: `push`
@@ -90,6 +94,8 @@ In the repo -> `Settings` -> `Code and automation` -> `Add branch ruleset`:
 
 ### Git: Learn more
 
+Short videos to build your mental model of how Git works:
+
 - [Git Explained in 100 Seconds](https://www.youtube.com/watch?v=hwP7WQkmECE)
 - [What is Git? Explained in 2 Minutes!](https://www.youtube.com/watch?v=2ReR1YJrNOM)
 - [A brief introduction to Git for beginners](https://www.youtube.com/watch?v=r8jQ9hVA2qs)
@@ -97,6 +103,8 @@ In the repo -> `Settings` -> `Code and automation` -> `Add branch ruleset`:
 - [Git MERGE vs REBASE: Everything You Need to Know](https://www.youtube.com/watch?v=0chZFIZLR_0)
 
 ### VS Code: Check `GitLens`
+
+GitLens shows commit history, blame annotations, and branch visualization right inside VS Code.
 
 In the `Status Bar`:
 
@@ -116,8 +124,11 @@ Learn more about [`GitLens` features](https://help.gitkraken.com/gitlens/gitlens
 
 ### Shell: Set up the prompt
 
+Starship shows your current git branch, status, and other useful info directly in your terminal prompt.
+
 Install [`Starship`](https://github.com/starship/starship#-installation).
 
 ### Coding: Set up a coding agent
 
-Set up a free coding agent to help you with the lab. See [Coding agents](./appendix/coding-agents.md).
+A coding agent can help you write code, explain concepts, and debug issues. 
+See [Coding agents](./appendix/coding-agents.md).
